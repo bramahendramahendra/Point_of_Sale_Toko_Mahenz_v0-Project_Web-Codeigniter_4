@@ -4,7 +4,7 @@ namespace App\Database\Migrations;
 
 use CodeIgniter\Database\Migration;
 
-class Wholesale extends Migration
+class SupplyDetail extends Migration
 {
     public function up()
     {
@@ -13,12 +13,26 @@ class Wholesale extends Migration
                 'type'           => 'INT',
                 'auto_increment' => true,
             ],
-            'total' => [
+            'supply_id' => [
+                'type'           => 'INT',
+            ],
+            'product_id' => [
+                'type'           => 'INT',
+            ],
+            'quantity' => [
                 'type'       => 'INT',
                 'constraint' => '5',
             ],
             'price' => [
                 'type'       => 'INT',
+            ],
+            'discount_percent' => [
+                'type'       => 'INT',
+                'null' => true,
+            ],
+            'discount_nominal' => [
+                'type'       => 'INT',
+                'null' => true,
             ],
             'notes' => [
                 'type' => 'TEXT',
@@ -28,11 +42,11 @@ class Wholesale extends Migration
             'updated_at datetime default current_timestamp on update current_timestamp',
         ]);
         $this->forge->addKey('id', true);
-        $this->forge->createTable('wholesale');
+        $this->forge->createTable('supplydetails');
     }
 
     public function down()
     {
-        $this->forge->dropTable('wholesale');
+        $this->forge->dropTable('supplydetails');
     }
 }

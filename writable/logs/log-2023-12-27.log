@@ -54,3 +54,19 @@ Stack trace:
 #8 D:\Develop\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\development\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
 #9 D:\Develop\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\development\spark(102): CodeIgniter\CLI\Console->run()
 #10 {main}
+ERROR - 2023-12-27 13:53:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	created_at datetime default current_timestamp,
+	updated_at datetime d' at line 5 in D:\Develop\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\development\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Develop\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\development\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `c...', 0)
+#1 D:\Develop\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\development\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 D:\Develop\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\development\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 D:\Develop\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\development\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 D:\Develop\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\development\app\Database\Migrations\2023-12-27-095216_Category.php(32): CodeIgniter\Database\Forge->createTable('category')
+#5 D:\Develop\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\development\system\Database\MigrationRunner.php(873): App\Database\Migrations\Category->up()
+#6 D:\Develop\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\development\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\Develop\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\development\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\Develop\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\development\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\Develop\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\development\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\Develop\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\development\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}

@@ -4,7 +4,7 @@ namespace App\Database\Migrations;
 
 use CodeIgniter\Database\Migration;
 
-class Product extends Migration
+class TransactionDetail extends Migration
 {
     public function up()
     {
@@ -13,43 +13,40 @@ class Product extends Migration
                 'type'           => 'INT',
                 'auto_increment' => true,
             ],
-            'sku' => [
-                'type'       => 'VARCHAR',
-                'constraint' => '100',
+            'transaction_id' => [
+                'type'           => 'INT',
             ],
-            'product' => [
-                'type'       => 'VARCHAR',
-                'constraint' => '100',
+            'product_id' => [
+                'type'           => 'INT',
             ],
-            'description' => [
-                'type' => 'TEXT',
+            'quantity' => [
+                'type'       => 'INT',
+                'constraint' => '5',
+            ],
+            'price' => [
+                'type'       => 'INT',
+            ],
+            'discount_percent' => [
+                'type'       => 'INT',
                 'null' => true,
             ],
-            'category_id' => [
-                'type'           => 'INT',
-            ],
-            'satuan_id' => [
-                'type'           => 'INT',
-            ],
-            'price_retail' => [
+            'discount_nominal' => [
                 'type'       => 'INT',
+                'null' => true,
             ],
-            'price_wholesale' => [
-                'type'       => 'INT',
-            ],
-            'status' => [
-                'type' => 'VARCHAR',
-                'constraint' => '50',
+            'notes' => [
+                'type' => 'TEXT',
+                'null' => true,
             ],
             'created_at datetime default current_timestamp',
             'updated_at datetime default current_timestamp on update current_timestamp',
         ]);
         $this->forge->addKey('id', true);
-        $this->forge->createTable('products');
+        $this->forge->createTable('transactiondetails');
     }
 
     public function down()
     {
-        $this->forge->dropTable('products');
+        $this->forge->dropTable('transactiondetails');
     }
 }

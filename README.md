@@ -91,6 +91,10 @@ php spark serve
 ```bash
 php spark migrate:create [name_file]
 ```
+- migrate database
+```bash
+php spark migrate
+```
 
 ## Upload to Server
 

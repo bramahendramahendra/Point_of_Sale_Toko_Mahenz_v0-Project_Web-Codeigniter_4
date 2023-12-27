@@ -29,11 +29,11 @@ class Unit extends Migration
             'updated_at datetime default current_timestamp on update current_timestamp',
         ]);
         $this->forge->addKey('id', true);
-        $this->forge->createTable('unit');
+        $this->forge->createTable('units');
     }
 
     public function down()
     {
-        $this->forge->dropTable('unit');
+        $this->forge->dropTable('units');
     }
 }
