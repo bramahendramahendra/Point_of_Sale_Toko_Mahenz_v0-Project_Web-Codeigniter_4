@@ -92,4 +92,7 @@ php spark serve
 php spark migrate:create [name_file]
 ```
 
+## Upload to Server
+
+https://docs.google.com/document/d/1xu-d-XT0YC4bT1y_UMp9fYxQG_zeQq6oemt9z2OzXbM/edit?usp=sharing
 
