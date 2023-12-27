@@ -57,3 +57,39 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - json (enabled by default - don't turn it off)
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
 - [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+
+## requirements :
+
+Project Web Development - V0.0.1
+
+Peoject Web Development - Codeigniter 4 - Aplikasi Point of Sale (POS) Toko Mahenz
+
+Tools :
+- CodeIgniter 4 (v4.4.3)
+- PHP 7.4+ (including 8.2)
+- AdminLTE v3.2.0
+
+## Getting Started
+
+1. Running CI 
+```bash
+php spark serve
+```
+
+## Reference
+
+- https://www.codeigniter.com/user_guide/intro/index.html
+- https://adminlte.io/
+
+## Database
+
+- Local Database name : project_kasir_ci4
+
+## konfigurasi 
+
+- create table migrate
+```bash
+php spark migrate:create [name_file]
+```
+
+
