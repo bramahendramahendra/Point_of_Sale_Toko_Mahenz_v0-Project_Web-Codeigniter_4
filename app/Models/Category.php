@@ -12,7 +12,7 @@ class Category extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = [];
+    protected $allowedFields    = ['category', 'description', 'status'];
 
     // Dates
     protected $useTimestamps = false;
@@ -37,4 +37,9 @@ class Category extends Model
     protected $afterFind      = [];
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
+
+    public function getAllData()
+    {
+        return $this->findAll(); // Mengambil semua data dari tabel Transaction
+    }
 }

@@ -70,3 +70,24 @@ Stack trace:
 #9 D:\Develop\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\development\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
 #10 D:\Develop\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\development\spark(102): CodeIgniter\CLI\Console->run()
 #11 {main}
+CRITICAL - 2023-12-27 16:15:21 --> Call to undefined function App\Controllers\dump()
+in APPPATH\Controllers\CategoryController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CategoryController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+CRITICAL - 2023-12-27 16:17:02 --> Undefined variable $categoryModel
+in APPPATH\Controllers\CategoryController.php on line 17.
+ 1 APPPATH\Controllers\CategoryController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryModel', 'D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\app\\Controllers\\CategoryController.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CategoryController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-27 16:17:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$categoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
