@@ -39,8 +39,7 @@ class Product extends Migration
                 'type'       => 'INT',
             ],
             'status' => [
-                'type' => 'VARCHAR',
-                'constraint' => '50',
+                'type'  => 'TINYINT',
             ],
             'created_at datetime default current_timestamp',
             'updated_at datetime default current_timestamp on update current_timestamp',

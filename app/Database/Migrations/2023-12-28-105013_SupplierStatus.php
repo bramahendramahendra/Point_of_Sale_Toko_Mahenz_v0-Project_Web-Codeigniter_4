@@ -4,7 +4,7 @@ namespace App\Database\Migrations;
 
 use CodeIgniter\Database\Migration;
 
-class Employee extends Migration
+class SupplierStatus extends Migration
 {
     public function up()
     {
@@ -14,41 +14,27 @@ class Employee extends Migration
                 'unsigned'       => true,
                 'auto_increment' => true,
             ],
-            'user_id' => [
-                'type'           => 'INT',
-            ],
-            'nik' => [
+            'status' => [
                 'type'       => 'VARCHAR',
                 'constraint' => '100',
             ],
-            'name' => [
-                'type'       => 'VARCHAR',
-                'constraint' => '100',
-            ],
-            'address' => [
+            'description' => [
                 'type' => 'TEXT',
                 'null' => true,
             ],
-            'city' => [
-                'type'       => 'VARCHAR',
-                'constraint' => '100',
-            ],
-            'province' => [
-                'type'       => 'VARCHAR',
-                'constraint' => '100',
-            ],
-            'status' => [
-                'type'  => 'TINYINT',
+            'active' => [
+                'type'      => 'BOOLEAN',
+                'default'   => false,
             ],
             'created_at datetime default current_timestamp',
             'updated_at datetime default current_timestamp on update current_timestamp',
         ]);
         $this->forge->addKey('id', true);
-        $this->forge->createTable('employees');
+        $this->forge->createTable('supplierstatuses');
     }
 
     public function down()
     {
-        $this->forge->dropTable('employees');
+        $this->forge->dropTable('supplierstatuses');
     }
 }
