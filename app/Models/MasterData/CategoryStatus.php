@@ -1,18 +1,18 @@
 <?php
 
-namespace App\Models;
+namespace App\Models\MasterData;
 
 use CodeIgniter\Model;
 
-class Category extends Model
+class CategoryStatus extends Model
 {
-    protected $table            = 'categories';
+    protected $table            = 'categorystatuses';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['category', 'description', 'status'];
+    protected $allowedFields    = ['status', 'description', 'active'];
 
     // Dates
     protected $useTimestamps = false;

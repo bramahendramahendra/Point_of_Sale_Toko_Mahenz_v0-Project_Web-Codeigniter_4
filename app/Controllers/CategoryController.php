@@ -4,25 +4,28 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 use App\Models\Category;
+use App\Models\MasterData\CategoryStatus;
 
 class CategoryController extends BaseController
 {
     public function __construct() 
     {
-        $this->CategoryModel = new Category();
+        $this->DefaultModel = new Category();
+        $this->DefaultStatusModel = new CategoryStatus();
     }
 
     public function index()
     {
-        $categoryData = $this->CategoryModel->getAllData();
-        // var_dump($category);
+        $defaultData = $this->DefaultModel->getAllData();
+        $DefaultStatusData = $this->DefaultStatusModel->getAllData();
         $data = [
             'judul' => 'Kategori',
             'subjudul' => '',
             'menu' => 'category',
             'submenu' => '' ,
             'page' => 'v_category',
-            'data' => $categoryData,
+            'data' => $defaultData,
+            'dataStatus' => $DefaultStatusData,
         ];
         return view('v_template', $data);
     }
@@ -37,16 +40,21 @@ class CategoryController extends BaseController
         $data = [
             'category' => $this->request->getPost('category'),
             'description' => $this->request->getPost('description'),
-            'status' => 1,
+            'status' => $this->request->getPost('status'),
         ];
-        $this->CategoryModel->insert($data);
-        session()->setFlashdata('pesan', 'Data Berhasil Ditambahkan !!');
+        $result = $this->DefaultModel->insert($data);
+        if ($result) {
+            $message = ['success', 'Data Berhasil Ditambahkan !!'];
+        } else {
+            $message = ['danger', 'Gagal menambahkan data.'];
+        }
+        session()->setFlashdata('message', $message);
         return redirect()->to('category');
     }
 
     // public function edit($id)
     // {
-    //     $category = $this->CategoryModel->find($id);
+    //     $category = $this->DefaultModel->find($id);
     //     $data = [
     //         'judul' => 'Edit Kategori',
     //         'subjudul' => '',
@@ -64,17 +72,28 @@ class CategoryController extends BaseController
         $data = [
             'category' => $this->request->getPost('category'),
             'description' => $this->request->getPost('description'),
+            'status' => $this->request->getPost('status'),
         ];
-        $this->CategoryModel->update($id, $data);
-        session()->setFlashdata('pesan', 'Data Berhasil Diupdate !!');
+        $result = $this->DefaultModel->update($id, $data);
+        if ($result) {
+            $message = ['success', 'Data Berhasil Diupdate !!'];
+        } else {
+            $message = ['danger', 'Gagal mengupdate data.'];
+        }
+        session()->setFlashdata('message', $message);
         return redirect()->to(base_url('category'));
     }
 
     public function delete()
     {
         $id = $this->request->getPost('id');
-        $this->CategoryModel->delete($id);
-        session()->setFlashdata('pesan', 'Data Berhasil Dihapus !!');
+        $result = $this->DefaultModel->delete($id);
+        if ($result) {
+            $message = ['success', 'Data Berhasil Dihapus !!'];
+        } else {
+            $message = ['danger', 'Gagal menghapus data.'];
+        }
+        session()->setFlashdata('message', $message);
         return redirect()->to(base_url('category'));
     }
 }

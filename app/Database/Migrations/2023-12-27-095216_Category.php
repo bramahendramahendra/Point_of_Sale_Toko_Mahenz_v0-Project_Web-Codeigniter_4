@@ -11,6 +11,7 @@ class Category extends Migration
          $this->forge->addField([
             'id' => [
                 'type'           => 'INT',
+                'unsigned'       => true,
                 'auto_increment' => true,
             ],
             'category' => [
@@ -22,7 +23,7 @@ class Category extends Migration
                 'null' => true,
             ],
             'status' => [
-                'type'           => 'INT',
+                'type'           => 'TINYINT',
             ],
             'created_at datetime default current_timestamp',
             'updated_at datetime default current_timestamp on update current_timestamp',
