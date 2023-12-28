@@ -12,7 +12,7 @@ class ProductStatus extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = [];
+    protected $allowedFields    = ['status', 'description', 'active'];
 
     // Dates
     protected $useTimestamps = false;
@@ -37,4 +37,9 @@ class ProductStatus extends Model
     protected $afterFind      = [];
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
+
+    public function getAllData()
+    {
+        return $this->findAll(); 
+    }
 }

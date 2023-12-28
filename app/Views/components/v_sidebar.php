@@ -37,41 +37,42 @@
         </a>
         <ul class="nav nav-treeview">
             <li class="nav-item">
-                <a href="<?= base_url('category-status') ?>" class="nav-link <?= $submenu == 'category-status' ? 'active' : '' ?>">
+                <a href="<?= base_url('product-status') ?>" class="nav-link <?=$submenu=='product-status'?'active':''?>">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Produk Status</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="<?= base_url('category-status') ?>" class="nav-link <?=$submenu=='category-status'?'active':''?>">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Kategori Status</p>
                 </a>
             </li>
             <li class="nav-item">
-                <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
-                <i class="far fa-circle nav-icon"></i>
-                <p>Top Navigation + Sidebar</p>
+                <a href="<?= base_url('unit-status') ?>" class="nav-link <?=$submenu=='unit-status'?'active':''?>">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Unit Status</p>
                 </a>
             </li>
             <li class="nav-item">
-                <a href="pages/layout/boxed.html" class="nav-link">
-                <i class="far fa-circle nav-icon"></i>
-                <p>Boxed</p>
+                <a href="<?= base_url('supplier-status') ?>" class="nav-link <?=$submenu=='supplier-status'?'active':''?>">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Supplier Status</p>
                 </a>
             </li>
             <li class="nav-item">
-                <a href="pages/layout/fixed-sidebar.html" class="nav-link">
-                <i class="far fa-circle nav-icon"></i>
-                <p>Fixed Sidebar</p>
+                <a href="<?= base_url('employee-status') ?>" class="nav-link <?=$submenu=='employee-status'?'active':''?>">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Pegawai Status</p>
                 </a>
             </li>
             <li class="nav-item">
-                <a href="pages/layout/fixed-sidebar-custom.html" class="nav-link">
-                <i class="far fa-circle nav-icon"></i>
-                <p>Fixed Sidebar <small>+ Custom Area</small></p>
+                <a href="<?= base_url('user-status') ?>" class="nav-link <?=$submenu=='user-status'?'active':''?>">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>User Status</p>
                 </a>
             </li>
-            <li class="nav-item">
-                <a href="pages/layout/fixed-topnav.html" class="nav-link">
-                <i class="far fa-circle nav-icon"></i>
-                <p>Fixed Navbar</p>
-                </a>
-            </li>
+            
             <li class="nav-item">
                 <a href="pages/layout/fixed-footer.html" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
