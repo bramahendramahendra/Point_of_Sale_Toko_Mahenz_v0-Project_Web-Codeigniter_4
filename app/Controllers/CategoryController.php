@@ -27,10 +27,10 @@ class CategoryController extends BaseController
         return view('v_template', $data);
     }
 
-    public function create()
-    {
-        return view('v_create_category');
-    }
+    // public function create()
+    // {
+    //     return view('v_create_category');
+    // }
 
     public function store()
     {
@@ -44,22 +44,23 @@ class CategoryController extends BaseController
         return redirect()->to('category');
     }
 
-    public function edit($id)
-    {
-        $category = $this->CategoryModel->find($id);
-        $data = [
-            'judul' => 'Edit Kategori',
-            'subjudul' => '',
-            'menu' => 'category',
-            'submenu' => '',
-            'page' => 'v_edit_category',
-            'data' => $category,
-        ];
-        return view('v_template', $data);
-    }
+    // public function edit($id)
+    // {
+    //     $category = $this->CategoryModel->find($id);
+    //     $data = [
+    //         'judul' => 'Edit Kategori',
+    //         'subjudul' => '',
+    //         'menu' => 'category',
+    //         'submenu' => '',
+    //         'page' => 'v_edit_category',
+    //         'data' => $category,
+    //     ];
+    //     return view('v_template', $data);
+    // }
 
-    public function update($id)
+    public function update()
     {
+        $id = $this->request->getPost('id');
         $data = [
             'category' => $this->request->getPost('category'),
             'description' => $this->request->getPost('description'),
@@ -69,8 +70,9 @@ class CategoryController extends BaseController
         return redirect()->to(base_url('category'));
     }
 
-    public function delete($id)
+    public function delete()
     {
+        $id = $this->request->getPost('id');
         $this->CategoryModel->delete($id);
         session()->setFlashdata('pesan', 'Data Berhasil Dihapus !!');
         return redirect()->to(base_url('category'));

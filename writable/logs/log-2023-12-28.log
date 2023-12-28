@@ -1,0 +1,791 @@
+WARNING - 2023-12-28 03:02:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+CRITICAL - 2023-12-28 03:02:55 --> Invalid file: "v_category.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_category.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('v_category', [], true)
+ 3 APPPATH\Views\v_template.php(754): view('v_category')
+ 4 SYSTEMPATH\View\View.php(228): include('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\app\\Views\\v_template.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('v_template', [], true)
+ 7 APPPATH\Controllers\CategoryController.php(27): view('v_template', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CategoryController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 03:07:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 03:10:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 03:10:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 03:10:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 03:27:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 03:28:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 03:30:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 03:30:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 03:30:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 03:30:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 03:31:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 03:31:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 03:31:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 03:32:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 03:32:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 03:32:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 03:33:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 03:33:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 03:34:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 03:34:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 03:35:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 03:36:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 03:37:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 03:37:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 03:42:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 03:46:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 03:50:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 03:50:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 03:50:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 03:51:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 03:52:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 03:52:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 03:52:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 03:53:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 03:53:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 04:00:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+CRITICAL - 2023-12-28 04:00:56 --> Undefined variable $category
+in APPPATH\Views\v_category.php on line 38.
+ 1 APPPATH\Views\v_category.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\app\\Views\\v_category.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\app\\Views\\v_category.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('v_category', [], true)
+ 5 APPPATH\Views\v_template.php(758): view('v_category')
+ 6 SYSTEMPATH\View\View.php(228): include('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\CategoryController.php(27): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CategoryController->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 04:01:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 04:08:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 04:10:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 04:16:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 04:21:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 04:21:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 04:21:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 04:22:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 04:22:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 04:22:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 05:13:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 05:13:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 05:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 05:13:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+CRITICAL - 2023-12-28 05:13:51 --> Undefined array key "id_satuan"
+in APPPATH\Views\v_category.php on line 45.
+ 1 APPPATH\Views\v_category.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_satuan"', 'D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\app\\Views\\v_category.php', 45)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\app\\Views\\v_category.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('v_category', [], true)
+ 5 APPPATH\Views\v_template.php(758): view('v_category')
+ 6 SYSTEMPATH\View\View.php(228): include('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\CategoryController.php(27): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CategoryController->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 05:14:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 05:14:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 05:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 05:14:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 05:23:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 05:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 05:23:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 05:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 05:23:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 05:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 05:23:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 05:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 05:23:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 05:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 05:24:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 05:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 05:24:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 05:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 05:24:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 05:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 05:26:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 05:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 05:26:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 05:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 05:27:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 05:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 05:27:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 05:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 05:28:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 05:28:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 05:28:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 05:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 05:28:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 05:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 05:29:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 05:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 05:29:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 05:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 05:29:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 05:29:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 05:30:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 05:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 05:30:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 05:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 05:30:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 05:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 05:30:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 05:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 05:30:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 05:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 05:30:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 05:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 05:31:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 05:31:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 05:31:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 05:31:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 05:31:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 05:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 05:31:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 05:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 05:31:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 05:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 05:33:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 05:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 05:33:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 05:33:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 05:33:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 05:33:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-28 06:06:23 --> Unclosed '{' on line 9 does not match ')'
+in APPPATH\Controllers\CategoryController.php on line 73.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\app\\Controllers\\CategoryController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CategoryController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CategoryController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\CategoryController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 06:06:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 06:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 06:06:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 06:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 06:06:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 06:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 06:07:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 06:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 06:07:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 06:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 06:08:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 06:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 06:08:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 06:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 06:08:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 06:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 06:10:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 06:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 06:12:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 06:12:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 06:12:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 06:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 06:12:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+CRITICAL - 2023-12-28 06:12:39 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2766.
+ 1 SYSTEMPATH\Model.php(445): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(1080): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH\Controllers\CategoryController.php(76): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CategoryController->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+WARNING - 2023-12-28 06:13:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 06:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 06:13:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 06:13:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 06:14:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 06:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 06:14:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 06:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 06:14:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 06:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 06:15:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 06:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 06:15:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 06:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 06:15:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 06:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 06:15:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 06:15:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 06:15:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 06:15:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 06:15:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 06:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 06:15:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 06:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 06:15:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 06:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-28 06:15:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\CategoryController::$CategoryModel is deprecated in APPPATH\Controllers\CategoryController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CategoryController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Develop\\Point_of_Sale_Toko_Mahenz_v0-Project_Web-Codeigniter_4\\development\\public\\index.php')
+INFO - 2023-12-28 06:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
