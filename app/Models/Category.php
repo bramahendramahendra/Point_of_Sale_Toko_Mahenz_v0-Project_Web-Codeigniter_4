@@ -40,6 +40,12 @@ class Category extends Model
 
     public function getAllData()
     {
-        return $this->findAll(); 
+        // return $this->findAll(); 
+
+        $builder = $this->db->table('categories AS c');
+        $builder->select('c.*, cs.status AS statusName');
+        $builder->join('categorystatuses AS cs', 'c.status = cs.id', 'left');
+        $data = $builder->get();
+        return $data->getResultArray();
     }
 }

@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="<?=base_url('resources')?>/plugins/toastr/toastr.min.css">
     <!-- Theme style -->
     <link rel="stylesheet" href="<?=base_url('resources')?>/dist/css/adminlte.min.css">
+    <!-- jQuery -->
+    <script src="<?=base_url('resources')?>/plugins/jquery/jquery.min.js"></script>
 </head>
 <body class="hold-transition dark-mode sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
     <div class="wrapper">
@@ -162,8 +164,6 @@
     <!-- ./wrapper -->
 
     <!-- REQUIRED SCRIPTS -->
-    <!-- jQuery -->
-    <script src="<?=base_url('resources')?>/plugins/jquery/jquery.min.js"></script>
     <!-- Bootstrap -->
     <script src="<?=base_url('resources')?>/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- overlayScrollbars -->
@@ -200,7 +200,7 @@
     <!-- AdminLTE for demo purposes -->
     <script src="<?=base_url('resources')?>/dist/js/demo.js"></script>
     <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-    <script src="<?=base_url('resources')?>/dist/js/pages/dashboard2.js"></script>
+    <!-- <script src="<?=base_url('resources')?>/dist/js/pages/dashboard2.js"></script> -->
 
     <script>
         $(function () {

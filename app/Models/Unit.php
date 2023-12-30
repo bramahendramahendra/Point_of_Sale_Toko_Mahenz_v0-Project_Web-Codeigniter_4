@@ -40,6 +40,12 @@ class Unit extends Model
 
     public function getAllData()
     {
-        return $this->findAll(); 
+        // return $this->findAll(); 
+
+        $builder = $this->db->table('units AS u');
+        $builder->select('u.*, us.status AS statusName');
+        $builder->join('unitstatuses AS us', 'u.status = us.id', 'left');
+        $data = $builder->get();
+        return $data->getResultArray();
     }
 }

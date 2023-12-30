@@ -4,7 +4,9 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 use App\Models\User;
+use App\Models\Employee;
 use App\Models\MasterData\UserStatus;
+use App\Libraries\ErrorHandlerLib;
 
 class UserController extends BaseController
 {
@@ -12,39 +14,66 @@ class UserController extends BaseController
     {
         $this->DefaultModel = new User();
         $this->DefaultStatusModel = new UserStatus();
+        $this->EmployeeModel = new Employee();
+        $this->errorHandler = new ErrorHandlerLib();
     }
 
     public function index()
     {
-        $defaultData = $this->DefaultModel->getAllData();
         $DefaultStatusData = $this->DefaultStatusModel->getAllData();
-        $data = [
-            'judul' => 'User',
-            'subjudul' => '',
-            'menu' => 'user',
-            'submenu' => '' ,
-            'page' => 'v_user',
-            'data' => $defaultData,
-            'dataStatus' => $DefaultStatusData,
-        ];
-        return view('v_template', $data);
+        if($DefaultStatusData) {
+            $defaultData = $this->DefaultModel->getAllData();
+            $data = [
+                'judul' => 'User',
+                'subjudul' => '',
+                'menu' => 'user',
+                'submenu' => '' ,
+                'page' => 'v_user',
+                'data' => $defaultData,
+                'dataStatus' => $DefaultStatusData,
+            ];
+            return view('v_template', $data);
+        } else {
+            return $this->errorHandler->showError400('user', 'User', 'User Status', 'user-status');
+        }
     }
 
     public function store()
     {
-        $data = [
-            'name' => $this->request->getPost('name'),
-            'username' => $this->request->getPost('username'),
-            'email' => $this->request->getPost('email'),
-            'password' => $this->request->getPost('password'),
-            'status' => $this->request->getPost('status'),
-        ];
-        $result = $this->DefaultModel->insert($data);
-        if ($result) {
-            $message = ['success', 'Data Berhasil Ditambahkan !!'];
-        } else {
-            $message = ['danger', 'Gagal menambahkan data.'];
+        $db = \Config\Database::connect(); // mendapatkan instance database
+        $db->transBegin(); // memulai transaksi
+
+        try {
+            $dataUser = [
+                'name' => $this->request->getPost('name'),
+                'username' => $this->request->getPost('username'),
+                'email' => $this->request->getPost('email'),
+                'password' => $this->request->getPost('password'),
+                'status' => $this->request->getPost('status'),
+            ];
+            $resultUser = $this->DefaultModel->insert($dataUser);
+
+            if ($resultUser) {
+                $dataEmployee = [
+                    'user_id' => $resultUser,
+                    'name' => $this->request->getPost('name'),
+                ];
+                $resultEmployee = $this->EmployeeModel->insert($dataEmployee);
+            }
+
+            if ($db->transStatus() === false) {
+                $db->transRollback();
+                $message = ['danger', 'Gagal menambahkan data.'];
+            } else {
+                $db->transCommit();
+                $message = ['success', 'Data Berhasil Ditambahkan !!'];
+            } 
+         } catch (\Exception $e) {
+            $db->transRollback(); // rollback transaksi jika terjadi exception
+            $message = ['danger', 'Exception: ' . $e->getMessage()];
         }
+        // var_dump($message);
+        // die;
         session()->setFlashdata('message', $message);
         return redirect()->to('user');
     }

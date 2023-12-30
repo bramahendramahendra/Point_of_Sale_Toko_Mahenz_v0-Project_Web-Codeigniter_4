@@ -5,7 +5,7 @@ namespace App\Controllers;
 use App\Controllers\BaseController;
 use App\Models\Category;
 use App\Models\MasterData\CategoryStatus;
-use App\Libraries\ErrorHandlerLib; // Memasukkan library
+use App\Libraries\ErrorHandlerLib;
 
 class CategoryController extends BaseController
 {
@@ -21,6 +21,7 @@ class CategoryController extends BaseController
         $DefaultStatusData = $this->DefaultStatusModel->getAllData();
         if($DefaultStatusData) {
             $defaultData = $this->DefaultModel->getAllData();
+            // var_dump($defaultData);die;
             $data = [
                 'judul' => 'Kategori',
                 'subjudul' => '',

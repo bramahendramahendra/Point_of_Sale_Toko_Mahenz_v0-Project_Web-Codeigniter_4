@@ -40,7 +40,7 @@
                                         <td><?= $no++ ?></td>
                                         <td><?= $value['category'] ?></td>
                                         <td><?= $value['description'] ?></td>
-                                        <td><?= $value['status'] ?></td>
+                                        <td><?= $value['statusName'] ?></td>
                                         <td>
                                             <button class="btn btn-warning btn-sm" data-toggle="modal" data-target="#edit-data<?= $value['id'] ?>"><i class="fas fa-pencil-alt"></i></button>
                                             <button class="btn btn-danger btn-sm" data-toggle="modal" data-target="#delete-data<?= $value['id'] ?>"><i class="fas fa-trash"></i></button>
@@ -82,22 +82,20 @@
             <?= form_open('category/add') ?>
                 <div class="modal-body">
                     <div class="form-group">
-                        <label for="inputName">Kategori</label>
-                        <input name="category" type="text" id="inputName" class="form-control">
+                        <label for="inputCategory">Kategori</label>
+                        <input name="category" type="text" id="inputCategory" class="form-control" placeholder="Kategori">
                     </div>
                     <div class="form-group">
                         <label for="inputDescription">Deskripsi</label>
-                        <textarea name="description" id="inputDescription" class="form-control" rows="4"></textarea>
+                        <textarea name="description" id="inputDescription" class="form-control" rows="4" placeholder="Deskripsi"></textarea>
                     </div>
                     <div class="form-group">
                         <label for="inputStatus">Status</label>
                         <select name="status" id="inputStatus" class="form-control custom-select">
+                            <option value="" selected disabled>Pilih Status</option>
                             <?php foreach ($dataStatus as $status) { ?>
                                 <option value="<?= $status['id'] ?>"><?= $status['status'] ?></option>
                              <?php } ?>
-                            <!-- <option>On Hold</option>
-                            <option>Canceled</option>
-                            <option>Success</option> -->
                         </select>
                     </div>
                 </div>
@@ -127,18 +125,22 @@
                     <div class="modal-body">
                         <input name="id" value="<?= $value['id'] ?>" type="hidden">
                         <div class="form-group">
-                            <label for="inputName">Kategori</label>
-                            <input name="category" value="<?= $value['category'] ?>" type="text" id="inputName" class="form-control">
+                            <label for="inputCategory">Kategori</label>
+                            <input name="category" value="<?= $value['category'] ?>" type="text" id="inputCategory" class="form-control" placeholder="Kategori">
                         </div>
                         <div class="form-group">
                             <label for="inputDescription">Deskripsi</label>
-                            <textarea name="description" id="inputDescription" class="form-control" rows="4"><?= $value['description'] ?></textarea>
+                            <textarea name="description" id="inputDescription" class="form-control" rows="4" placeholder="Deskripsi"><?= $value['description'] ?></textarea>
                         </div>
-                        <select name="status" id="inputStatus" class="form-control custom-select">
-                            <?php foreach ($dataStatus as $status) { ?>
-                                <option value="<?= $status['id'] ?>" <?= ($status['id'] == $value['status']) ? 'selected' : '' ?>><?= $status['status'] ?></option>
-                             <?php } ?>
-                        </select>
+                         <div class="form-group">
+                            <label for="inputStatus">Status</label>
+                            <select name="status" id="inputStatus" class="form-control custom-select">
+                                <option value="" selected disabled>Pilih Status</option>
+                                <?php foreach ($dataStatus as $status) { ?>
+                                    <option value="<?= $status['id'] ?>" <?= ($status['id'] == $value['status']) ? 'selected' : '' ?>><?= $status['status'] ?></option>
+                                <?php } ?>
+                            </select>
+                        </div>
                     </div>
                     <div class="modal-footer justify-content-between">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>

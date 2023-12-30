@@ -42,7 +42,7 @@
                                         <td><?= $value['name'] ?></td>
                                         <td><?= $value['username'] ?></td>
                                         <td><?= $value['email'] ?></td>
-                                        <td><?= $value['status'] ?></td>
+                                        <td><?= $value['statusName'] ?></td>
                                         <td>
                                             <button class="btn btn-warning btn-sm" data-toggle="modal" data-target="#edit-data<?= $value['id'] ?>"><i class="fas fa-pencil-alt"></i></button>
                                             <button class="btn btn-danger btn-sm" data-toggle="modal" data-target="#delete-data<?= $value['id'] ?>"><i class="fas fa-trash"></i></button>
@@ -90,15 +90,15 @@
                     </div>
                     <div class="form-group">
                         <label for="inputUsername">Username</label>
-                        <input name="username" type="text" id="inputUsername" class="form-control" placeholder="Username">
+                        <input name="username" type="text" id="inputUsername" class="form-control" placeholder="Username" autocomplete>
                     </div>
                     <div class="form-group">
                         <label for="inputEmail">Email</label>
-                        <input name="email" type="text" id="inputEmail" class="form-control" placeholder="Email">
+                        <input name="email" type="text" id="inputEmail" class="form-control" placeholder="Email" autocomplete>
                     </div>
                     <div class="form-group">
                         <label for="inputPassword">Password</label>
-                        <input name="password" type="password"  id="inputPassword" class="form-control" placeholder="Password">
+                        <input name="password" type="password"  id="inputPassword" class="form-control" placeholder="Password" autocomplete>
                     </div>
                     <div class="form-group">
                         <label for="inputStatus">Status</label>
@@ -137,30 +137,33 @@
                         <input name="id" value="<?= $value['id'] ?>" type="hidden">
                         <div class="form-group">
                             <label for="inputName">Nama</label>
-                            <input name="name" value="<?= $value['name'] ?>" type="text" id="inputName" class="form-control" placeholder="Nama">
+                            <input name="name" value="<?= $value['name'] ?>" type="text" class="form-control" placeholder="Nama">
                         </div>
                         <div class="form-group">
                             <label for="inputUsername">Username</label>
-                            <input name="username" value="<?= $value['username'] ?>" type="text" id="inputUsername" class="form-control" placeholder="Username">
+                            <input name="username" value="<?= $value['username'] ?>" type="text" class="form-control" placeholder="Username" autocomplete>
                         </div>
                         <div class="form-group">
                             <label for="inputEmail">Email</label>
-                            <input name="email" value="<?= $value['email'] ?>" type="text" id="inputEmail" class="form-control" placeholder="Email">
+                            <input name="email" value="<?= $value['email'] ?>" type="text" class="form-control" placeholder="Email" autocomplete>
                         </div>
                         <div class="form-check">
-                            <input name="changePassword" value="1" type="checkbox" id="inputChangePassword" class="form-check-input">
+                            <input name="changePassword" value="1" type="checkbox" id="inputChangePassword<?=$value['id']?>" class="form-check-input inputChangePassword" >
                             <label class="form-check-label" for="inputChangePassword">Aktif</label>
                         </div>
-                        <div class="form-group">
+                        <div class="form-group" id="formInputPassword<?=$value['id']?>" style="display: none;">
                             <label for="inputPassword">Password</label>
-                            <input name="password" value="<?= $value['password'] ?>" type="text" id="inputPasswordUpdate" class="form-control" placeholder="Password">
+                            <input name="password" type="password" class="form-control" placeholder="Password" autocomplete>
                         </div>
-                        <select name="status" id="inputStatus" class="form-control custom-select">
-                            <option value="" disabled>Pilih Status</option>
-                            <?php foreach ($dataStatus as $status) { ?>
-                                <option value="<?= $status['id'] ?>" <?= ($status['id'] == $value['status']) ? 'selected' : '' ?>><?= $status['status'] ?></option>
-                             <?php } ?>
-                        </select>
+                        <div class="form-group" >
+                            <label for="inputStatus">Status</label>
+                            <select name="status" class="form-control custom-select">
+                                <option value="" disabled>Pilih Status</option>
+                                <?php foreach ($dataStatus as $status) { ?>
+                                    <option value="<?= $status['id'] ?>" <?= ($status['id'] == $value['status']) ? 'selected' : '' ?>><?= $status['status'] ?></option>
+                                <?php } ?>
+                            </select>
+                        </div>
                     </div>
                     <div class="modal-footer justify-content-between">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
@@ -188,7 +191,7 @@
                 <?= form_open('user/delete') ?>
                     <div class="modal-body">
                         <input name="id" value="<?= $value['id'] ?>" type="hidden">
-                        Apakah Anda Yakin Hapus  <b><?= $value['category'] ?></b>
+                        Apakah Anda Yakin Hapus  <b><?= $value['username'] ?></b>
                     </div>
                     <div class="modal-footer justify-content-between">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Tidak</button>
@@ -204,18 +207,10 @@
 <?php } ?>
 
 <script>
-    $(document).ready(function() {
-        // Menyembunyikan input password pada awal
-        $('#inputPasswordUpdate').hide();
-
-        // Event handler ketika checkbox di klik
-        $('#inputChangePassword').change(function() {
-            // Menampilkan atau menyembunyikan input password
-            if ($(this).is(':checked')) {
-                $('#inputPasswordUpdate').show();
-            } else {
-                $('#inputPasswordUpdate').hide();
-            }
+    $(document).ready(function(){
+        $('.inputChangePassword').on('click', function() {
+            let id = $(this).attr('id').replace('inputChangePassword', '');
+            $('#formInputPassword' + id).toggle(this.checked);
         });
     });
 </script>

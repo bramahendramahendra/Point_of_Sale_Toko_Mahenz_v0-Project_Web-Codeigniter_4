@@ -5,6 +5,7 @@ namespace App\Controllers;
 use App\Controllers\BaseController;
 use App\Models\Unit;
 use App\Models\MasterData\UnitStatus;
+use App\Libraries\ErrorHandlerLib;
 
 class UnitController extends BaseController
 {
@@ -12,22 +13,27 @@ class UnitController extends BaseController
     {
         $this->DefaultModel = new Unit();
         $this->DefaultStatusModel = new UnitStatus();
+        $this->errorHandler = new ErrorHandlerLib();
     }
 
     public function index()
     {
-        $defaultData = $this->DefaultModel->getAllData();
         $DefaultStatusData = $this->DefaultStatusModel->getAllData();
-        $data = [
-            'judul' => 'Satuan',
-            'subjudul' => '',
-            'menu' => 'unit',
-            'submenu' => '' ,
-            'page' => 'v_unit',
-            'data' => $defaultData,
-            'dataStatus' => $DefaultStatusData,
-        ];
-        return view('v_template', $data);
+        if($DefaultStatusData) {
+            $defaultData = $this->DefaultModel->getAllData();
+            $data = [
+                'judul' => 'Satuan',
+                'subjudul' => '',
+                'menu' => 'unit',
+                'submenu' => '' ,
+                'page' => 'v_unit',
+                'data' => $defaultData,
+                'dataStatus' => $DefaultStatusData,
+            ];
+            return view('v_template', $data);
+        } else {
+            return $this->errorHandler->showError400('unit', 'Satuan', 'Satuan Status', 'unit-status');
+        }
     }
 
     public function store()

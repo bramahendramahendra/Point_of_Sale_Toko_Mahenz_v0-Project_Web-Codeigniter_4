@@ -13,7 +13,7 @@
     </li>
     <li class="nav-item">
         <a href="pages/kanban.html" class="nav-link">
-            <i class="nav-icon fas fa-columns"></i>
+            <i class="nav-icon fas fa-boxes"></i>
             <p>
                 Produk
             </p>
@@ -21,7 +21,7 @@
     </li>
     <li class="nav-item">
         <a href="pages/widgets.html" class="nav-link">
-            <i class="nav-icon fas fa-cash-register"></i>
+            <i class="nav-icon fas fa-shopping-cart"></i>
             <p>
                 Penjualan
             </p>
@@ -29,7 +29,7 @@
     </li>
     <li class="nav-item">
         <a href="<?= base_url('category') ?>" class="nav-link <?=$menu=='category'?'active':''?>">
-            <i class="nav-icon fas fa-cash-register"></i>
+            <i class="nav-icon fas fa-tags"></i>
             <p>
                 Kategori
             </p>
@@ -37,13 +37,13 @@
     </li>
     <li class="nav-item">
         <a href="" class="nav-link">
-            <i class="fas fa-circle nav-icon"></i>
+            <i class="nav-icon fas fa-truck-loading"></i>
             <p>Supply</p>
         </a>
     </li>
     <li class="nav-item">
         <a href="<?= base_url('unit') ?>" class="nav-link <?=$menu=='unit'?'active':''?>">
-            <i class="nav-icon fas fa-calendar-alt"></i>
+            <i class="nav-icon fas fa-balance-scale"></i>
             <p>
                 Satuan
             </p>
@@ -51,28 +51,26 @@
     </li>
     <li class="nav-item">
         <a href="<?= base_url('supplier') ?>" class="nav-link <?=$menu=='supplier'?'active':''?>">
-            <i class="nav-icon far fa-image"></i>
-            <p>
-                Supplier
-            </p>
+            <i class="nav-icon fas fa-industry"></i>
+            <p>Supplier</p>
         </a>
     </li>
     <li class="nav-item">
         <a href="<?= base_url('employee') ?>" class="nav-link <?=$menu=='employee'?'active':''?>">
-            <i class="nav-icon fas fa-ellipsis-h"></i>
+            <i class="nav-icon fas fa-users"></i>
             <p>Pegawai</p>
         </a>
     </li>
      <li class="nav-item">
         <a href="<?= base_url('user') ?>" class="nav-link <?=$menu=='user'?'active':''?>">
-            <i class="nav-icon fas fa-file"></i>
+            <i class="nav-icon fas fa-user"></i>
             <p>User</p>
         </a>
     </li>
    
     <li class="nav-item <?= $menu == 'masterdata' ? 'menu-open' : '' ?>">
         <a href="#" class="nav-link <?= $menu == 'masterdata' ? 'active' : '' ?>">
-            <i class="nav-icon fas fa-th"></i>
+            <i class="nav-icon fas fa-database"></i>
             <p>
                 Master Data
                 <i class="fas fa-angle-left right"></i>

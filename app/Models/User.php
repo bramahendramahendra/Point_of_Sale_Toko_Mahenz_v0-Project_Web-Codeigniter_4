@@ -40,6 +40,12 @@ class User extends Model
 
     public function getAllData()
     {
-        return $this->findAll(); 
+        // return $this->findAll(); 
+
+        $builder = $this->db->table('users AS u');
+        $builder->select('u.*, us.status AS statusName');
+        $builder->join('userstatuses AS us', 'u.status = us.id', 'left');
+        $data = $builder->get();
+        return $data->getResultArray();
     }
 }
