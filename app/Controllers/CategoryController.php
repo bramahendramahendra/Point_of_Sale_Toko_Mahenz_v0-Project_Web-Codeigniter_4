@@ -5,6 +5,7 @@ namespace App\Controllers;
 use App\Controllers\BaseController;
 use App\Models\Category;
 use App\Models\MasterData\CategoryStatus;
+use App\Libraries\ErrorHandlerLib; // Memasukkan library
 
 class CategoryController extends BaseController
 {
@@ -12,22 +13,27 @@ class CategoryController extends BaseController
     {
         $this->DefaultModel = new Category();
         $this->DefaultStatusModel = new CategoryStatus();
+        $this->errorHandler = new ErrorHandlerLib();
     }
 
     public function index()
     {
-        $defaultData = $this->DefaultModel->getAllData();
         $DefaultStatusData = $this->DefaultStatusModel->getAllData();
-        $data = [
-            'judul' => 'Kategori',
-            'subjudul' => '',
-            'menu' => 'category',
-            'submenu' => '' ,
-            'page' => 'v_category',
-            'data' => $defaultData,
-            'dataStatus' => $DefaultStatusData,
-        ];
-        return view('v_template', $data);
+        if($DefaultStatusData) {
+            $defaultData = $this->DefaultModel->getAllData();
+            $data = [
+                'judul' => 'Kategori',
+                'subjudul' => '',
+                'menu' => 'category',
+                'submenu' => '' ,
+                'page' => 'v_category',
+                'data' => $defaultData,
+                'dataStatus' => $DefaultStatusData,
+            ];
+            return view('v_template', $data);
+        } else {
+            return $this->errorHandler->showError400('category', 'Kategori', 'Kategori Status', 'category-status');
+        }
     }
 
     // public function create()

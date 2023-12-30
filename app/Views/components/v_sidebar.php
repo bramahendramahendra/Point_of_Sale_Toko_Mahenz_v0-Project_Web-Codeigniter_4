@@ -12,14 +12,14 @@
         </a>
     </li>
     <li class="nav-item">
-        <a href="<?= base_url('category') ?>" class="nav-link <?=$menu=='category'?'active':''?>">
-            <i class="nav-icon fas fa-cash-register"></i>
+        <a href="pages/kanban.html" class="nav-link">
+            <i class="nav-icon fas fa-columns"></i>
             <p>
-                Kategori
+                Produk
             </p>
         </a>
     </li>
-        <li class="nav-item">
+    <li class="nav-item">
         <a href="pages/widgets.html" class="nav-link">
             <i class="nav-icon fas fa-cash-register"></i>
             <p>
@@ -27,6 +27,49 @@
             </p>
         </a>
     </li>
+    <li class="nav-item">
+        <a href="<?= base_url('category') ?>" class="nav-link <?=$menu=='category'?'active':''?>">
+            <i class="nav-icon fas fa-cash-register"></i>
+            <p>
+                Kategori
+            </p>
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="" class="nav-link">
+            <i class="fas fa-circle nav-icon"></i>
+            <p>Supply</p>
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="<?= base_url('unit') ?>" class="nav-link <?=$menu=='unit'?'active':''?>">
+            <i class="nav-icon fas fa-calendar-alt"></i>
+            <p>
+                Satuan
+            </p>
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="<?= base_url('supplier') ?>" class="nav-link <?=$menu=='supplier'?'active':''?>">
+            <i class="nav-icon far fa-image"></i>
+            <p>
+                Supplier
+            </p>
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="<?= base_url('employee') ?>" class="nav-link <?=$menu=='employee'?'active':''?>">
+            <i class="nav-icon fas fa-ellipsis-h"></i>
+            <p>Pegawai</p>
+        </a>
+    </li>
+     <li class="nav-item">
+        <a href="<?= base_url('user') ?>" class="nav-link <?=$menu=='user'?'active':''?>">
+            <i class="nav-icon fas fa-file"></i>
+            <p>User</p>
+        </a>
+    </li>
+   
     <li class="nav-item <?= $menu == 'masterdata' ? 'menu-open' : '' ?>">
         <a href="#" class="nav-link <?= $menu == 'masterdata' ? 'active' : '' ?>">
             <i class="nav-icon fas fa-th"></i>
@@ -246,31 +289,9 @@
         </ul>
     </li>
     <li class="nav-header">EXAMPLES</li>
-    <li class="nav-item">
-        <a href="pages/calendar.html" class="nav-link">
-        <i class="nav-icon fas fa-calendar-alt"></i>
-        <p>
-            Calendar
-            <span class="badge badge-info right">2</span>
-        </p>
-        </a>
-    </li>
-    <li class="nav-item">
-        <a href="pages/gallery.html" class="nav-link">
-        <i class="nav-icon far fa-image"></i>
-        <p>
-            Gallery
-        </p>
-        </a>
-    </li>
-    <li class="nav-item">
-        <a href="pages/kanban.html" class="nav-link">
-        <i class="nav-icon fas fa-columns"></i>
-        <p>
-            Kanban Board
-        </p>
-        </a>
-    </li>
+    
+   
+   
     <li class="nav-item">
         <a href="#" class="nav-link">
         <i class="nav-icon far fa-envelope"></i>
@@ -524,25 +545,7 @@
         </ul>
     </li>
     <li class="nav-header">MISCELLANEOUS</li>
-    <li class="nav-item">
-        <a href="iframe.html" class="nav-link">
-        <i class="nav-icon fas fa-ellipsis-h"></i>
-        <p>Tabbed IFrame Plugin</p>
-        </a>
-    </li>
-    <li class="nav-item">
-        <a href="https://adminlte.io/docs/3.1/" class="nav-link">
-        <i class="nav-icon fas fa-file"></i>
-        <p>Documentation</p>
-        </a>
-    </li>
     <li class="nav-header">MULTI LEVEL EXAMPLE</li>
-    <li class="nav-item">
-        <a href="#" class="nav-link">
-        <i class="fas fa-circle nav-icon"></i>
-        <p>Level 1</p>
-        </a>
-    </li>
     <li class="nav-item">
         <a href="#" class="nav-link">
         <i class="nav-icon fas fa-circle"></i>

@@ -23,7 +23,7 @@ class Unit extends Migration
                 'null' => true,
             ],
             'status' => [
-            'type'           => 'TINYINT',
+                'type'  => 'TINYINT',
             ],
             'created_at datetime default current_timestamp',
             'updated_at datetime default current_timestamp on update current_timestamp',

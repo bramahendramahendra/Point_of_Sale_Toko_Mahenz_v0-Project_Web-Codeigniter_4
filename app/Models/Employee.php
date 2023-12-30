@@ -12,7 +12,7 @@ class Employee extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = [];
+    protected $allowedFields    = ['user_id', 'nik', 'name', 'address', 'city', 'province', 'status'];
 
     // Dates
     protected $useTimestamps = false;
@@ -37,4 +37,9 @@ class Employee extends Model
     protected $afterFind      = [];
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
+
+    public function getAllData()
+    {
+        return $this->findAll(); 
+    }
 }
